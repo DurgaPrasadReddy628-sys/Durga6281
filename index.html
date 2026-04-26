@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+#lockScreen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#yes { background: green; color: white; }
+#no {
+  background: red;
+  color: white;
+  position: absolute;
+}
+
+#loveMessage, #msg1, #msg2, #msg3 {
+  display: none;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+#timer { margin-top: 10px; }
+
+.heart {
+  position: absolute;
+  color: pink;
+  animation: float 5s linear infinite;
+}
+
+@keyframes float {
+  from { transform: translateY(100vh); }
+  to { transform: translateY(-10vh); }
+}
+
+
+<source src="C:\Users\Dell\Downloads\Arz Kiya Hai(KoshalWorld.Com).mp3 ">
+Yes 💕
+No 😜
+</html>
